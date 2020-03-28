@@ -26,9 +26,8 @@ print('length of the list = ', len(squares))
 # Simple loop
 a = 0
 b = 1
-while a < 1000:
-    print(a, end=',')
+while (a<1000):
+    print(a, end=', ')
     a0 = a
     a = b
     b = a0 + b
-
