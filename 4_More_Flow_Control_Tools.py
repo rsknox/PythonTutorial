@@ -27,3 +27,14 @@
 for i in range(5,10):
     print(i)
 
+for n in range(2, 10):
+    for x in range(2, n):
+        if n % x == 0:  # % is modulus operator
+            print(n, 'equals', x, '*', n//x) # // is the floor division operator;
+                                             # // rounds the result down to the nearest whole number
+            break
+        else:
+            print(n, 'is a prime number') # loop fell through without finding a factor
+
+
+
